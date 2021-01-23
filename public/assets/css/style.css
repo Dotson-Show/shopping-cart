@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-style: normal;
+}
+
+.heading-text-black {
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+}
+
+.heading-text-white {
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.heading-text-green {
+    font-weight: bold;
+    font-size: 24px;
+    color: #34AB4E;
+}
+
+#main-prediction-contain {
+    min-height: 450px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+}
+
+#prediction-card-header {
+    /* height: 55px; */
+    background: #C4C4C4;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+}
+
+#season-container {
+    background: url('../img/season-arrow.png');
+    background-size: cover;
+}
+
+#match-day-container {
+    background: url('../img/match-day-chevron.png');
+    background-size: cover;
+}
+
+#teams-container {
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+}
+
+#versus {
+    width: 70px;
+    height: 70px;
+    background: rgba(52, 171, 78, 0.7);
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+#img-container {
+    /* width: 110px;
+    height: 120px; */
+    background: #E5E5E5;
+}
+
+.team-text {
+    font-weight: normal;
+    font-size: 18px;
+    color: #000000;
+}
+
+#action-button {
+    height: 45px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.blink {
+    animation: blinker 0.6s linear infinite;
+}
+
+.blink:hover {
+    animation: none;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
